@@ -1,0 +1,42 @@
+/* Кастомный цвет для хэдера */
+.custom-header {
+    background-color: #7D6B5E; 
+    color: #FFFFFF; /* Белый текст */
+}
+
+/* Кастомный цвет для футера */
+.custom-footer {
+    background-color: #7D6B5E; /* Темно-серый цвет */
+    color: #FFFFFF; /* Белый текст */
+}
+
+/* Дополнительные стили для навигации в хэдере */
+.custom-header .navbar-nav .nav-link {
+    color: #FFFFFF; /* Белый цвет текста ссылок */
+}
+
+.custom-header .navbar-nav .nav-link:hover {
+    color: #FFD700; /* Золотой цвет при наведении */
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.social-link {
+    color: white;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+}
+
+.copyright {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
